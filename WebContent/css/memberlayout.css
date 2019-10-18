@@ -14,3 +14,122 @@
 	background-color: gray;
 	margin-top: 0px;
 }
+
+
+
+#log_select{
+	margin:0 auto;
+	background-color: gray;
+	width: 400px;
+	margin-top: 100px;
+	
+	
+}
+
+#log_select > li{
+	float:left;
+	
+	margin-left:60px;
+	text-decoration: none;
+	list-style:none;
+}
+
+#log_select > li >a{
+	color:white;
+	text-decoration: none;
+	font-weight: bold;
+	
+}
+#log_select > li >a:hover{
+	color:gray;
+}
+
+#dd2{
+	margin:0 auto;
+	background-color: gray;
+	height: 1px;
+	width: 400px;
+	margin-top: 125px;
+}
+#dd3{
+	
+	margin:0 auto;
+	background-color: gray;
+	height: 1px;
+	width: 400px;
+
+
+}
+
+.box1{
+	background-color: #242424;
+	height: 250px;
+	width: 400px;
+	margin: 0 auto;
+	margin-top: 50px;
+}
+.idbox{
+	 background:black;
+	 border-radius: 2em;
+	 border-style:none;
+	 width: 100%;
+	 height: 50px;
+	 font-size: 18px;
+	 font-weight: 100;
+	 color:#242424;
+	 margin-bottom: 5px;
+}
+
+#idbox2{
+	
+	line-height:50px;
+	text-align:center;
+	background:red;
+	border-radius: 2em;
+	border-style:none;
+	width: 100%;
+	height: 50px;
+	font-size: 15px;
+	font-weight: bold;
+	color:white;
+	margin-bottom: 5px;
+
+}
+
+#check{
+	color:gray;
+	text-align: right;
+	line-height: 50px;
+	font-size:14px;
+}
+#log_select2{
+	margin:0 auto;
+	background-color: yellow;
+	width: 400px;
+	margin-top: 30px;
+}
+#log_select2 > li{
+	float:left;
+	margin-left:55px;
+	text-decoration: none;
+	list-style:none;
+
+	font-size: 12px;
+}
+
+#log_select > li >a{
+	color:white;
+	text-decoration: none;
+	font-weight: bold;
+	
+}
+#log_select2 > li >a:hover{
+	color:gray;
+}
+
+#ltxt{
+	line-height:80px;
+	color:white;
+	text-align: center;
+	font-weight: bold;
+}

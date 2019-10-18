@@ -9,9 +9,17 @@ header{
 	position:absolute;
 	top:0px;
 	left:0px;
-	
 }
 #header2{
+	width: 100%;
+	min-width: 1300px;
+	height: 30px;
+	background-color: #FF1F45;
+	position:absolute;
+	top:0px;
+	left:0px;
+}
+#header3{
 	width: 100%;
 	min-width: 1300px;
 	height: 30px;
