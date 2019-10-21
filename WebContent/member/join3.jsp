@@ -4,18 +4,19 @@
 <html>
 <head>
 <meta charset="UTF-8">
+<link href="/Html_ex2/css/layout.css" rel ="stylesheet">
+<link href="/Html_ex2/css/reset.css"rel="stylesheet">
+<link href="/Html_ex2/css/memberlayout.css" rel="stylesheet">
+<meta charset="UTF-8">
 <title>Insert title here</title>
-<link href="./css/layout.css" rel ="stylesheet">
-<link href="./css/reset.css"rel="stylesheet">
-<script src="https://kit.fontawesome.com/a076d05399.js"></script>
 </head>
 <body>
-	<header>
+	<header id="header2">
 	
 		<div class="select_box">
 			<div id="po">
 					<div class="select">
-						<a href="./member/login.jsp" class="select_a">로그인</a>
+						<a href="/Html_ex2/member/login.jsp" class="select_a">로그인</a>
 						<a href="#" class="select_a">이용권</a>
 						<a href="#" class="select_a">편성표</a>
 						<a href="#" class="select_a">이벤트</a>
@@ -26,18 +27,18 @@
 				<div class= "mb">
 					<div class="menu">
 						<div id="logo">
-							<img alt=""src="./images/logo.jpg">
+							<a href="/Html_ex2/index.jsp"><img alt=""src="/Html_ex2/images/logo.jpg"></a>
 							<div id="q">
-								<a href="#"><img alt="" src="./images/q.jpg"></a>
+								<a href="#"><img alt="" src="/Html_ex2/images/q.jpg"></a>
 							</div>
 							
 							<div id="menu_box">
 								<div>
-									<a href="#"><img alt="" src="./images/live.jpg"></a>
-									<a href="#"><img alt="" src="./images/vod.jpg"></a>
-									<a href="#"><img alt="" src="./images/movie.jpg"></a>
-									<a href="#"><img alt="" src="./images/clip.jpg"></a>
-									<a href="#"><img alt="" src="./images/mall.jpg"></a>
+									<a href="#"><img alt="" src="/Html_ex2/images/live.jpg"></a>
+									<a href="#"><img alt="" src="/Html_ex2/images/vod.jpg"></a>
+									<a href="#"><img alt="" src="/Html_ex2/images/movie.jpg"></a>
+									<a href="#"><img alt="" src="/Html_ex2/images/clip.jpg"></a>
+									<a href="#"><img alt="" src="/Html_ex2/images/mall.jpg"></a>
 								</div>
 							
 							</div>
@@ -48,59 +49,41 @@
 		</div>
 	</header>
 	
-	
-	<section class = "main">
+	<section class = "main2">
 		<div class ="main_box">
+
+			<p class="logintxt">로그인</p>
+			<div class="dd"></div>
+			<br><br><br><br><br><br>
+			<p class="last">회원 가입이 완료되었습니다.</p>
+			<p class="last">로그인해주세요.</p>
 			
-			<img alt="" src="./images/main.png" id="main_image">
-			
-			<div id="main_b1">
-			</div>
-			<div class="main_b2">
-			</div>
-			<div id="main_b3">
+				<ul id="log_select">
+					<li><a href="#">CJ ONE 아이디</a></li>
+					<li><a href="#">TVING 아이디</a></li>
+				</ul>
+				<div id="dd2"></div>
+			<div class="box1">
+				<p><input type="text" placeholder="  아이디" class="idbox"></p>
+				<p><input type="password" placeholder="  비밀번호" class="idbox"></p>
+				<p class="check">로그인 상태 유지 <input type="checkbox"></p>
 				<div>
-					<div id="l1">
-					</div>
-					<div class="livemain">
-						<div class="livetxt">
-							<p class="live">LIVE</p>
-							<p class="live2">실시간 <br>인기 채널</p>
-						</div>
-						<div class="liveimg">
-							<a href="#"><img alt ="" src="./images/l1.png"></a>
-							<a href="#"><img alt="" src="./images/l2.png"></a>
-							<a href="#"><img alt="" src="./images/l3.png"></a>
-						</div>
-					</div>
+					<p id= "idbox2"><a href="#">로 그 인</a></p>
 				</div>
+				
+					<ul id="log_select2">
+						<li><a href="/Html_ex2/member/join.jsp">회원가입</a></li>
+						<li><a href="#">아이디 찾기</a></li>
+						<li><a href="#">비밀번호 찾기</a></li>
+					</ul>
+				<br><br><br><br>
+				<div id="dd3"></div>
+				<p id="ltxt">SNS 계정으로도 이용이 가능합니다.</p>
+				<a href="#"><img alt="" src="/Html_ex2/images/login-sns-icon.png"></a>
 			</div>
-			<div id ="main_b4">
-			
-				<div>
-				<div class="main_b2"></div>
-					<div id="m"></div>
-					<div id="l2">
-					</div>
-					<div class="livemain">
-						<div class="livetxt">
-							<p class="live">VOD</p>
-							<p class="live2">프로그램 <br>다시보기</p>
-						</div>
-						<div class="liveimg">
-							<a href="#"><img alt ="" src="./images/v1.png"></a>
-							<a href="#"><img alt="" src="./images/v2.png"></a>
-							<a href="#"><img alt="" src="./images/v3.png"></a>
-						</div>
-					</div>
-				</div>
-		 </div>
-		 
-		 
-		 
 		</div>
-	</section>
 	
+	</section>
 	
 	<footer>
 	<div id="footer_wrap">
@@ -141,10 +124,11 @@
 			Mnet 고객센터(방송편성문의) : 1855-1631 대표메일 : tving@cj.net 티빙몰 문의 : tving.mall@cj.net
 			<br><br>
 			Copyright (C) CJ ENM All right reserved.<br><br>
-			<img alt="" src="./images/footer_logo.png">
+			<img alt="" src="/Html_ex2/images/footer_logo.png">
 			</div>
 		</div>
 	</div>
 	</footer>
+
 </body>
 </html>
